@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.212);
+    background: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+    transition: all .4s;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.212);
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s;
+}
+
+.card:hover img{
+    margin-top: -30px;
+}
+
+.card:hover{
+    width: 160px;
+}
+
+.card::before{
+    content:'ANKARA ANITKABIR';
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 0.6em;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
