@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000000;
+    overflow: hidden;
+    height: 100vh;
+}
+
+i{
+    position: absolute;
+    height: 200px;
+    background: linear-gradient(transparent, #fff);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    animation: animate 5s linear infinite;
+}
+
+i:nth-child(25n+1)
+{
+    background: linear-gradient(transparent, #FF0000);
+}
+
+i:nth-child(25n+2) {
+    background: linear-gradient(transparent, #FF4000);
+}
+
+i:nth-child(25n+3) {
+    background: linear-gradient(transparent, #FF8000);
+}
+
+i:nth-child(25n+4) {
+    background: linear-gradient(transparent, #FFBF00);
+}
+i:nth-child(25n+5) {
+    background: linear-gradient(transparent, #FFFF00);
+}
+
+i:nth-child(25n+6) {
+    background: linear-gradient(transparent, #BFFF00);
+}
+
+i:nth-child(25n+7) {
+    background: linear-gradient(transparent, #80FF00);
+}
+
+i:nth-child(25n+8) {
+    background: linear-gradient(transparent, #40FF00);
+}
+
+i:nth-child(25n+9) {
+    background: linear-gradient(transparent, #00FF00);
+}
+
+i:nth-child(25n+10) {
+    background: linear-gradient(transparent, #00FF40);
+}
+
+i:nth-child(25n+11) {
+    background: linear-gradient(transparent, #00FF80);
+}
+
+i:nth-child(25n+12) {
+    background: linear-gradient(transparent, #00FFBF);
+}
+
+i:nth-child(25n+13) {
+    background: linear-gradient(transparent, #00FFFF);
+}
+
+i:nth-child(25n+14) {
+    background: linear-gradient(transparent, #00BFFF);
+}
+
+i:nth-child(25n+15) {
+    background: linear-gradient(transparent, #0080FF);
+}
+
+i:nth-child(25n+16) {
+    background: linear-gradient(transparent, #0040FF);
+}
+
+i:nth-child(25n+17) {
+    background: linear-gradient(transparent, #0000FF);
+}
+
+i:nth-child(25n+18) {
+    background: linear-gradient(transparent, #4000FF);
+}
+
+i:nth-child(25n+19) {
+    background: linear-gradient(transparent, #8000FF);
+}
+
+i:nth-child(25n+20) {
+    background: linear-gradient(transparent, #BF00FF);
+}
+
+i:nth-child(25n+21) {
+    background: linear-gradient(transparent, #FF00FF);
+}
+
+i:nth-child(25n+22) {
+    background: linear-gradient(transparent, #FF00BF);
+}
+
+i:nth-child(25n+23) {
+    background: linear-gradient(transparent, #FF0080);
+}
+
+i:nth-child(25n+24) {
+    background: linear-gradient(transparent, #FF0040);
+}
+
+i:nth-child(25n+25)
+{
+    background: linear-gradient(transparent, #848484);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-200px);
+    }
+    100% {
+        transform: translateY(calc(100vh + 200px));
+    }
+}
